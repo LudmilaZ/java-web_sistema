@@ -28,7 +28,7 @@ public class DBManager {
         try {
             Class.forName("com.mysql.jdbc.Driver");
             con = DriverManager.getConnection(
-                    "jdbc:mysql://localhost:3306/student_crm?useUnicode=true&serverTimezone=UTC", "root", "489178qq");
+                    "jdbc:mysql://localhost:3306/student_crm?useUnicode=true&serverTimezone=UTC&autoReconnect=true", "root", "489178qq");
 
 
             changeDisciplines = con.prepareStatement("UPDATE `student_crm`.`disciplina` SET `disciplina` = ? WHERE (`id` = ?);");
