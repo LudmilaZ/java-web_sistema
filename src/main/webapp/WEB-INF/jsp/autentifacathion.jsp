@@ -23,7 +23,7 @@
                                 <label for="loginID" class="col-sm-2 col-form-label"><fmt:message key="login"/></label>
                                 <div class="col-sm-6">
                                     <input type="text" class="form-control" id="loginID" name="login"
-                                           placeholder="Логин"
+                                           placeholder="Логин" value="admin"
                                            required>
                                 </div>
                                 <div class="valid-tooltip"><fmt:message key="valid"/></div>
@@ -32,7 +32,7 @@
                             <div class="form-group row">
                                 <label for="passId" class="col-sm-2 col-form-label"><fmt:message key="password"/></label>
                                 <div class="col-sm-6">
-                                    <input type="password" class="form-control" id="passId" name="pass"
+                                    <input type="password" class="form-control" id="passId" name="pass" value="12345"
                                            placeholder="****"
                                            required>
                                 </div>
@@ -59,20 +59,6 @@
                                     <button type="submit" class="btn btn-outline-secondary btn btn-block"><fmt:message key="button_entr"/></button>
 
                                 </div>
-<%--                                <div class="col-sm-3">--%>
-<%--                                <select class="btn btn-outline-secondary btn btn-block" name="language_page" id= "language_page" onchange="SelectLanguage()">--%>
-<%--                                    <c:forEach items="${language_list}" var="t" varStatus="i">--%>
-<%--                                        <c:choose>--%>
-<%--                                        <c:when test="${t.getShot_name() eq language_ch}">--%>
-<%--                                           <option selected value="${t.getShot_name()}">${t.getLanguage()}</option>--%>
-<%--                                        </c:when>--%>
-<%--                                        <c:otherwise>--%>
-<%--                                            <option  value="${t.getShot_name()}">${t.getLanguage()}</option>--%>
-<%--                                        </c:otherwise>--%>
-<%--                                        </c:choose>--%>
-<%--                                    </c:forEach>--%>
-<%--                                </select>--%>
-<%--                                </div>--%>
 
                             </div>
 
