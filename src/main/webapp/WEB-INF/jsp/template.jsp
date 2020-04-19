@@ -16,7 +16,7 @@
 <fmt:bundle basename="locale">
     <header>
         <fmt:setLocale value="${language_ch}" scope="session"/>
-        <div id="containerHeader" class="container-fluid">
+        <div id="containerHeader1" class="container-fluid">
             <div class="container-fluid">
                 <div class="row">
 
@@ -36,6 +36,10 @@
                         </select>
                     </div>
                 </div>
+            </div>
+        </div>
+            <div id="containerHeader" class="container-fluid">
+            <div class="container-fluid">
                 <div class="row">
 
                     <div class="col-sm-2">
