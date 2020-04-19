@@ -1,0 +1,54 @@
+body {
+    margin-right: 0;
+}
+
+#divNav {
+    position: absolute;
+    left: 22px;
+    top: 166px;
+}
+
+#home, #studentsList {
+    color: rgb(112, 156, 178);
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+#container {
+    padding: 0 228px;
+}
+
+#titleStudentProgress {
+    text-align: center;
+    padding-top: 30px;
+}
+
+#table1, #table, h5, h6 {
+    color: #6c757d;
+}
+
+#sectionTable {
+    padding-top: 30px;
+}
+
+h4 {
+    color: #6c757d;
+    padding-left: 15px;
+    margin-top: -6px;
+}
+
+#select {
+    background: #f5fff9;
+    color: #6c757d;
+    border-color: black;
+}
+
+#select:hover {
+    background: #6c757d;
+    color: #ffffff;
+    border-color: black;
+}
+
+.tdTable {
+    text-align: center;
+}

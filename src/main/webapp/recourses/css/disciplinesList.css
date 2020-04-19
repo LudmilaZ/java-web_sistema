@@ -1,0 +1,48 @@
+body {
+    margin-right: 16px;
+}
+
+#divNav {
+    position: absolute;
+    left: 22px;
+    top: 166px;
+}
+
+#home, #studentsList {
+    color: rgb(112, 156, 178);
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+#container {
+    padding: 0 228px;
+}
+
+#titleDisciplinesList {
+    text-align: center;
+    padding-top: 30px;
+}
+
+#table, h5, h6 {
+    color: #6c757d;
+}
+
+#divDisciplineList1 a, #divDisciplineList2 a, #divDisciplineList3 a {
+    color: rgb(112, 156, 178);
+    text-decoration: none;
+}
+
+h5 {
+    color: #6c757d;
+    padding-left: 15px;
+    margin-top: -6px;
+}
+
+div.divDisciplineList {
+    padding-bottom: 15px;
+    text-decoration: none;
+}
+
+#button1, #button2, #button3 {
+    font-size: .8rem;
+}

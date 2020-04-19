@@ -1,0 +1,49 @@
+body {
+    margin-right: 0;
+}
+
+#divNav {
+    position: absolute;
+    left: 22px;
+    top: 166px;
+}
+
+#home{
+    color: rgb(112, 156, 178);
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+#container {
+    padding: 0 228px;
+}
+
+#divStudentsList1, #divStudentsList2 {
+    text-align: center;
+    padding-top: 30px;
+    /*padding: 30px 202px 0 227px;*/
+    /*margin-right: 10px;*/
+}
+
+#divStudentsList1 a, #divStudentsList2 a {
+    color: rgb(112, 156, 178);
+    text-decoration: none;
+}
+
+#button1 {
+    font-size: 1.2rem;
+    line-height: 0.8;
+}
+
+#button3 {
+    font-size: 1.2rem;
+    line-height: 1.57;
+}
+
+#table, h5 {
+    color: #6c757d;
+}
+
+#sectionTable {
+    padding-top: 30px;
+}
